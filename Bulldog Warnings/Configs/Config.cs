@@ -17,7 +17,7 @@ namespace Bulldog_Warnings.Configs
         [Description("Указывает, нужно ли получать варнинги от администрации.")]
         public string ConsoleMessage { get; set; } = $"У игрока %name%[%id%] подозрение на %reason%, на него уже %count% жалоб!";
         [Description("Показывать ли подсказку для варнинга.")]
-        public bool ShowHint { get; set; } = true;
+        public bool ShowHint { get; set; } = false;
         [Description("Текст для показа администрации в виде подсказки.")]
         public string HintMessage { get; set; } = "Пришёл варнинг. Проверьте админ-консоль.";
         [Description("Автоматические очищение жалоб после завершения раунда.")]
