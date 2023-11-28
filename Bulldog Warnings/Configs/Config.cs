@@ -9,7 +9,6 @@ namespace Bulldog_Warnings.Configs
         public bool IsEnabled { get; set; } = true;
         [Description("Debug-mode")]
         public bool Debug { get; set; } = false;
-
         [Description("Указывает, нужно ли ограничивать дальность видимости предметов.")]
         public bool IsItemsLimiting { get; set; } = false;
         [Description("Дистанция в метрах ограничения видимости предметов.")]
